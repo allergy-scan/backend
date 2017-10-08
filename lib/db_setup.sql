@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  email VARCHAR(255),
+  password VARCHAR(255),
+
+  CONSTRAINT constraint_name UNIQUE (email)
+);
+
+CREATE TABLE IF NOT EXISTS categories (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+);
+
+CREATE TABLE IF NOT EXISTS category_assignments (
+  category INTEGER,
+  ingredient INTEGER,
+
+  PRIMARY KEY (category, ingredient)
+)
+
+CREATE TABLE IF NOT EXISTS ingredients (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(255)
+);
