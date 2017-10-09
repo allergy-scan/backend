@@ -1,0 +1,1 @@
+{"gcp":{"country":"US","address":"200 Wilmot Rd","gcp":"0000000","contact":null,"state":"IL","company":"Walgreens Co.","address2":null,"postal_code":"60015","city":"Deerfield","gln":null,"fax":null,"phone":"(847) 914-3638"},"return_code":"001","return_message":"UPC information not on file, but GCP information is, returning GCP company data","upc_code":"0049022895645"}

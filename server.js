@@ -52,5 +52,5 @@ router.post('/login', (req, res) => {
 app.use('/api', router)
 
 
-app.listen(port, '127.0.0.1')
+app.listen(port)
 console.log('Server started on port ' + port)
